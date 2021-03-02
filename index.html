@@ -36,37 +36,47 @@
     <!-- header section strats -->
     <header class="header_section">
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="" />
             <span>
               d'Four
             </span>
           </a>
-
-          <div class="navbar-collapse" id="">
-            <div class="custom_menu-btn">
-              <button onclick="openNav()">
-                <span class="s-1"> </span>
-                <span class="s-2"> </span>
-                <span class="s-3"> </span>
-              </button>
-            </div>
-            <div id="myNav" class="overlay">
-              <div class="overlay-content">
-                <a href="index.html">HOME</a>
-                <a href="about.html">ABOUT</a>
-                <a href="food.html">Food</a>
-                <a href="contact.html">Contact Us</a>
-              </div>
-            </div>
-          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#dishs">Our Dishs</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#price">Price</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#testimonial">Testimonial</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+               </li>
+            </ul>
+         </div>
         </nav>
       </div>
     </header>
     <!-- end header section -->
     <!-- slider section -->
-    <section class=" slider_section position-relative">
+    <section class="slider_section position-relative">
       <div class="side_heading">
         <h5>
           d          
@@ -203,7 +213,8 @@
   </div>
 
   <!-- about section -->
-  <section class="about_section">
+
+  <section id="about" class="about_section">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-5 offset-md-1">
@@ -237,7 +248,7 @@
 
   <!-- dish section -->
 
-  <section class="dish_section layout_padding">
+  <section id="dishs" class="dish_section layout_padding">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -300,7 +311,7 @@
 
   <!-- hot section -->
 
-  <section class="hot_section layout_padding">
+  <section id="price" class="hot_section layout_padding">
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -506,7 +517,7 @@
 
   <!-- client section -->
 
-  <section class="client_section layout_padding">
+  <section id="testimonial" class="client_section layout_padding">
     <div class="container">
       <div class="heading_container">
         <hr>
@@ -551,7 +562,7 @@
               </div>
               <div class="detail-box">
                 <p>
-                  Dressingnya masih kental padahal sudah 2hari.
+                  Masih enak, dressingnya creamy dan buahnya masih kreskres padahal sudah 2hari.
                 </p>
               </div>
             </div>
@@ -599,7 +610,7 @@
 
   <!-- contact section -->
 
-  <section class="contact_section layout_padding-bottom ">
+  <section id="contact" class="contact_section layout_padding-bottom ">
     <div class="container">
       <h2>
         Get In touch
@@ -660,32 +671,6 @@
 
   <!-- end contact section -->
 
-  <!-- subscribe section -->
-
-  <section class="subscribe_section">
-    <div class="container">
-      <form action="">
-        <div class="row">
-          <div class="col-lg-3 col-md-4">
-            <label for="subEmail">
-              Our Newsletter
-            </label>
-          </div>
-          <div class="col-lg-9 col-md-8">
-            <div class="box">
-              <input type="email" placeholder="Enter your email" id="subEmail">
-              <button>
-                Subscribe
-              </button>
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-  </section>
-
-  <!-- end subscribe section -->
-
   <!-- footer section -->
   <section class="container-fluid footer_section">
     <div class="social_container">
@@ -693,17 +678,20 @@
         Follow on
       </h4>
       <div class="social-box">
-        <a href="">
+        <a href="https://www.facebook.com/dfoursite">
           <img src="images/fb.png" alt="">
         </a>
-        <a href="">
-          <img src="images/twitter.png" alt="">
+        <a href="https://twitter.com/dfoursite">
+          <img src="images/tw.png" alt="">
         </a>
-        <a href="">
-          <img src="images/linkedin.png" alt="">
+        <a href="https://www.instagram.com/dfoursite/">
+          <img src="images/ig.png" alt="">
         </a>
-        <a href="">
-          <img src="images/youtube.png" alt="">
+        <a href="https://dfour-kitchen.business.site/">
+          <img src="images/gb.png" alt="">
+        </a>
+        <a href="https://www.youtube.com/channel/UCLoYqyOC8KVdBOzIgtzZcPw">
+          <img src="images/yt.png" alt="">
         </a>
       </div>
     </div>
