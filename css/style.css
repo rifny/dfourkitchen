@@ -86,9 +86,32 @@ body {
   width: 18%;
   min-width: 150px;
   height: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(#51b5ef), to(#436bf1));
-  background: linear-gradient(to right, #51b5ef, #436bf1);
+ /* background: -webkit-gradient(linear, left top, right top, from(#51b5ef), to(#436bf1));
+  background: linear-gradient(to right, #51b5ef, #436bf1);*/
+      background: linear-gradient(45deg, #f22613, #f89406, #26a65b, #5868ec, #f54e80, #f7ca18, #d2527f);
+    background-size: 500% 500%;
+    -webkit-animation: ignielGradient 9s ease infinite;
+    -moz-animation: ignielGradient 9s ease infinite;
+    animation: ignielGradient 9s ease infinite;
 }
+
+@-webkit-keyframes ignielGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes ignielGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes ignielGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
 
 .sub_page .hero_area {
   height: auto;
