@@ -459,7 +459,7 @@ a:focus {
           align-items: center;
 }
 
-.slider_section .img-box.b-1 {
+/*.slider_section .img-box.b-1 {
   margin-left: 20%;
 }
 
@@ -468,7 +468,7 @@ a:focus {
   margin-right: -10%;
   -webkit-transform: translateY(15px);
           transform: translateY(15px);
-}
+}*/
 
 .slider_section .img-box img {
   width: 100%;
